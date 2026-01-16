@@ -1,0 +1,194 @@
+%-------------------------
+% Resume in Latex
+% Author : Caio Cavalcante
+% Based off of : https://github.com/sb2nov/resume
+% https://github.com/jakegut/resume
+% https://github.com/arasgungore/arasgungore-CV
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[spanish]{babel} % Changed to spanish
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Caio Cavalcante} \\ \vspace{1pt}
+    \small
+    \faMobile \hspace{.5pt} 
+    \href{tel:5575992962199}{+55 (75) 99296-2199}
+    $|$ 
+    \faAt \hspace{.5pt}
+    \href{mailto:caio.ca.emp@gmail.com}{\underline{caio.ca.emp@gmail.com}} 
+    $|$ 
+    \faLinkedinSquare \hspace{.5pt} 
+    \href{https://www.linkedin.com/in/caio-cav-ara}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/caio-cavalcante}{GitHub}
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{Experiencia}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Desarrollador junior y soporte de TI}{ago. 2024 -- ago. 2025}
+      {Inovare Contabilidad y Consultoría Empresarial}{Feira de Santana, BA, BR}
+      \resumeItemListStart
+        \resumeItem{Refactorización y optimización del sitio institucional con HTML/CSS y JavaScript, reduciendo el total de líneas de código en un 15 \%, eliminando redundancias y facilitando el mantenimiento futuro para disminuir la deuda técnica.}
+        \resumeItem{Responsable del sector tecnológico de la empresa, que incluye: atención al cliente, diagnóstico y solución de problemas, instalación, configuración, documentación y mantenimiento de software.}
+        \resumeItem{Diseñé el sitio con un enfoque responsivo para asegurar una experiencia de usuario consistente; implementé nuevas funcionalidades y actualicé el diseño para reflejar la identidad visual de la empresa; gestioné la plataforma de alojamiento con WordPress (CMS).}
+        \resumeItem{Estructuración de hojas de cálculo y análisis de datos estratégicos para generar hallazgos que optimizaron la toma de decisiones y la participación de los clientes, logrando la captación de 5 nuevas empresas como clientes de la firma contable.}
+        \resumeItem{Impartición de 20 capacitaciones sobre el uso de nuevas tecnologías para el personal y clientes, facilitando conceptos técnicos para audiencias internas y externas.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Asistente Administrativo}{oct. 2022 -- jul. 2024}
+      {Inkasa Shop Market 24H}{Feira de Santana, BA, BR}
+      \resumeItemListStart
+        \resumeItem{Recuperación del 80 \% de las ganancias perdidas mensualmente por inconsistencias en las transacciones mediante procesos de auditoría y análisis de datos (Excel/Sheets), identificando fallas operativas y ejecutando una gestión de cobranza proactiva.}
+        \resumeItem{Monitoreo de cámaras de seguridad en tiendas autónomas en 15 condominios.}
+        \resumeItem{Uso de metodologías ágiles para mantener un flujo continuo de trabajo en la oficina.}
+        \resumeItem{Responsable de la atención al cliente.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Proyectos}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{IF-Talentos} $|$ \emph{HTML5/CSS3, JavaScript (ES6), PHP 8, PostgreSQL, GitHub}}{ago. 2025 -- presente}
+          \resumeItemListStart
+            \resumeItem{Desarrollo de una plataforma full-stack utilizando PHP y PostgreSQL para crear un puente directo entre estudiantes de Sistemas de Información y el mercado laboral, como solución potencial para la alta tasa de deserción y la dificultad para obtener pasantías obligatorias en la comunidad académica;}
+            \resumeItem{Implementación de arquitectura en capas en el backend y modelado de base de datos relacional (SQL), garantizando la seguridad del sistema con autenticación y contraseñas cifradas, y la integridad del ecosistema a través de un flujo de curación y aprobación de ofertas de trabajo por los administradores.}
+            \resumeItem{Diseño de la interfaz frontend con HTML, CSS y JavaScript, implementando un sistema multiperfil (Estudiante, Empresa, Administrador), un panel de administración con visualización de datos para monitorear la salud de la plataforma y un sistema de perfil progresivo para aumentar la participación del usuario.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{API de microservicios de notificaciones} $|$ \emph{Node.js, Express, TypeScript}}{dic. 2025}
+          \resumeItemListStart
+            \resumeItem{Desarrollo de una API RESTful independiente para gestionar el envío de correos electrónicos transaccionales desde la plataforma IF-Talentos.}
+            \resumeItem{Implementación de validación de datos con Zod e integración con un proveedor de correo electrónico (Resend) para garantizar la entrega en producción.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Educación}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Instituto Federal de Bahía}{Feira de Santana, BA, BR}
+      {Licenciatura en Sistemas de Información · GPA: 3.26/4.00 (8.15/10)}{mar. 2023 -- mar. 2027}
+    \resumeSubheading
+      {Helyos International School}{Feira de Santana, BA, BR}
+      {Educación Secundaria (Bachillerato) · GPA: 3.00/4.00 (7.5/10)}{feb. 2019 -- nov. 2021}
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Habilidades}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Técnicas}{: HTML5/CSS3, TypeScript, React.js, Node.js, Express.js, PostgreSQL.} \\
+     \textbf{Herramientas de Desarrollo}{: GitHub, Google Workspace, VS Code, Docker, Figma.} \\
+  \textbf{Idiomas}{: portugués (nativo), inglés (fluido), italiano y Libras (lengua de señas brasileña) (intermedio).} \\
+     }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
